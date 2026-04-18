@@ -92,6 +92,6 @@ class Transaction extends Model
         return Attribute::make(
             get: fn ($value) => \Carbon\Carbon::parse($value)->translatedFormat('l, d F Y'),
         );
-    }``
+    }
 }
 
